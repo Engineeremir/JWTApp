@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTApp.API", "JWTApp.API\JWTApp.API.csproj", "{F62DDA69-1954-4A13-934D-20B5061E4A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTApp.Core", "JWTApp.Core\JWTApp.Core.csproj", "{221CC38F-20CE-4570-8E80-AAE9F7CC1D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTApp.DataAccess", "JWTApp.DataAccess\JWTApp.DataAccess.csproj", "{217FA912-34AF-4126-BA13-67D61637FA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTApp.Business", "JWTApp.Business\JWTApp.Business.csproj", "{16CC0C09-2A1A-40FD-8F83-69CD416085FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp1.API", "TestApp1.API\TestApp1.API.csproj", "{49E70054-A1D6-46F0-B593-A0EFEDAC3ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp2.API", "TestApp2.API\TestApp2.API.csproj", "{C3CB7974-62FE-41C3-A94D-BB974FA23CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAPI3.API", "TestAPI3.API\TestAPI3.API.csproj", "{A1D3C9DB-5205-4549-8317-F81D871009DD}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F62DDA69-1954-4A13-934D-20B5061E4A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62DDA69-1954-4A13-934D-20B5061E4A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62DDA69-1954-4A13-934D-20B5061E4A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62DDA69-1954-4A13-934D-20B5061E4A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221CC38F-20CE-4570-8E80-AAE9F7CC1D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221CC38F-20CE-4570-8E80-AAE9F7CC1D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221CC38F-20CE-4570-8E80-AAE9F7CC1D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221CC38F-20CE-4570-8E80-AAE9F7CC1D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217FA912-34AF-4126-BA13-67D61637FA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217FA912-34AF-4126-BA13-67D61637FA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217FA912-34AF-4126-BA13-67D61637FA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217FA912-34AF-4126-BA13-67D61637FA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16CC0C09-2A1A-40FD-8F83-69CD416085FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CC0C09-2A1A-40FD-8F83-69CD416085FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CC0C09-2A1A-40FD-8F83-69CD416085FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CC0C09-2A1A-40FD-8F83-69CD416085FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E70054-A1D6-46F0-B593-A0EFEDAC3ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E70054-A1D6-46F0-B593-A0EFEDAC3ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E70054-A1D6-46F0-B593-A0EFEDAC3ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E70054-A1D6-46F0-B593-A0EFEDAC3ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3CB7974-62FE-41C3-A94D-BB974FA23CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3CB7974-62FE-41C3-A94D-BB974FA23CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3CB7974-62FE-41C3-A94D-BB974FA23CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3CB7974-62FE-41C3-A94D-BB974FA23CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D3C9DB-5205-4549-8317-F81D871009DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D3C9DB-5205-4549-8317-F81D871009DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D3C9DB-5205-4549-8317-F81D871009DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D3C9DB-5205-4549-8317-F81D871009DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
